@@ -1,0 +1,33 @@
+[data-theme="light"]{
+  --bg-color:#fef8f5;
+  --button-color:#ff6600;
+  --button-color-hover:#ff6600d5;
+  --header:rgb(255, 255, 255);
+  --title-color:#635744;
+  --text-color:#422525;
+  --mobile_nav:#fff7e9;
+}
+[data-theme="dark"]{
+  --bg-color:#111111;
+  --button-color:#ff6600;
+  --button-color-hover:#ff6600d5;
+  --header:#252525;
+  --title-color:#ffffff;
+  --text-color:#ffefdb;
+  --mobile_nav:#202020;
+}
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
+}
+body{
+  width:100vw;
+  overflow: hidden;
+  overflow-y:auto;
+  background-color: var(--bg-color);
+}
+p{
+  cursor: context-menu;
+}
