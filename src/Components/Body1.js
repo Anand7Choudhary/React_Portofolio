@@ -46,9 +46,9 @@ export default function Body1() {
                     y2="338.33"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0" stop-color="gray" stop-opacity="0.25" />
-                    <stop offset="0.54" stop-color="gray" stop-opacity="0.12" />
-                    <stop offset="1" stop-color="gray" stop-opacity="0.1" />
+                    <stop offset="0" stopColor="gray" stopOpacity="0.25" />
+                    <stop offset="0.54" stopColor="gray" stopOpacity="0.12" />
+                    <stop offset="1" stopColor="gray" stopOpacity="0.1" />
                   </linearGradient>
                 </defs>
                 <title>maker launch</title>
@@ -502,8 +502,8 @@ export default function Body1() {
                   transform="translate(-29.72 -56.36)"
                   fill="none"
                   stroke="#535461"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
                 />
                 <path
                   d="M1049.11,536.14c-3.34,8.11,1.66,37.68,1.66,37.68s24.37-17.48,27.71-25.59a15.88,15.88,0,0,0-29.37-12.09Z"
@@ -580,8 +580,8 @@ export default function Body1() {
                   transform="translate(-29.72 -56.36)"
                   fill="none"
                   stroke="#535461"
-                  stroke-miterlimit="10"
-                  stroke-width="2"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
                 />
                 <path
                   d="M1143.42,588.46c-6.34,6.07-13.75,35.13-13.75,35.13s29.36-6.11,35.7-12.17a15.88,15.88,0,0,0-21.95-23Z"
