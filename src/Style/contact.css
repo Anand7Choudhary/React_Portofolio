@@ -1,0 +1,100 @@
+.contact{
+    width:100%;
+    height: fit-content;
+    background-color: var(--bg-color2);
+}
+.contact .container{
+    width:100%;
+    height:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:80px 15px 50px 15px;
+}
+.contact .container .section-title{
+    width: 100%;
+    text-align: center;
+}
+.contact .container .section-title h2{
+    color:var(--title-color);
+    font-size: 40px;
+    white-space: pre-wrap;
+    margin-bottom: 15px;
+}
+.contact .container .section-title p{
+    color: var(--text-color);
+    font-size: 20px;
+    white-space:pre-wrap;
+    margin-bottom: 50px;
+}
+.contact .container .row{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact .container .row div{
+    width: 100%;
+}
+.contact .container .row div .info {
+    margin-left: 5%;
+    border-top: 3px solid #eb5d1e;
+    border-bottom: 3px solid #eb5d1e;
+    padding: 30px;
+    background: var(--header);
+    width: 90%;
+    overflow: hidden;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+.contact .container .row div .info div:hover{
+    background-color: var(--bg-color);
+}
+.contact .container .row .info div{
+    margin: 25px 0;
+    padding: 10px 5px 5px 10px;
+}
+.contact .info .icon {
+    font-size: 20px;
+    color: #eb5d1e;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--title-color);
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+.contact .info a p {
+    padding: 0 0 10px 60px;
+    /* margin-bottom: 20px; */
+    font-size: 20px;
+    color: var(--text-color);
+    white-space: pre-wrap;
+    word-break: break-all;
+    cursor: pointer;
+}
+@media screen and (max-width:1000px){
+    .contact .container .row div .info{
+        width: 96%;
+        margin-left: 2%;
+    }
+}
+@media screen and (max-width:600px) {
+    .contact .container .row div .info {
+        width: 98%;
+        margin-left: 1%;
+    }
+}

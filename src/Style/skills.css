@@ -1,0 +1,208 @@
+::selection {
+    color: #8f8f8f;
+    background: #8f8f8f;
+}
+
+.skills {
+    padding: 25px 30px;
+    width: 100%;
+    height: fit-content;
+    padding-top:100px;
+    background: var(--bg-color);
+    border-radius: 10px;
+    /* margin: 50px 0; */
+}
+
+.skills h2{
+    color: var(--title-color);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    cursor: context-menu;
+    white-space: pre-wrap;
+}
+
+.skills p{
+    color:var(--text-color);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    white-space: pre-wrap;
+}
+
+.skills .skill-sets {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.skills .bar {
+    margin: 20px 0;
+}
+
+.skills .bar:first-child {
+    margin-top: 0px;
+}
+
+.skills .bar .info {
+    margin-bottom: 5px;
+}
+
+.skills .bar .info span {
+    font-weight: 500;
+    font-size: 20px;
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+    color: var(--text-color);
+    font-weight: bold;
+    cursor: context-menu;
+}
+
+@keyframes showText {
+    100% {
+        opacity: 1;
+    }
+}
+
+.skills .bar .progress-line {
+    height: 10px;
+    width: 100%;
+    background: #dfdfdf;
+    position: relative;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05),
+        0 1px rgba(255, 255, 255, 0.8);
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.bar .progress-line #skillSpan {
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    background: var(--skill-color);
+    animation: 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line.cpp span {
+    width: 80%;
+}
+
+.bar .progress-line.c span {
+    width: 80%;
+}
+
+.bar .progress-line.csharp span {
+    width: 75%;
+}
+
+.bar .progress-line.reactjs span {
+    width: 70%;
+}
+
+.bar .progress-line.html span {
+    width: 90%;
+}
+
+.bar .progress-line.css span {
+    width: 90%;
+}
+
+.bar .progress-line.jquery span {
+    width: 85%;
+}
+
+.bar .progress-line.mysql span {
+    width: 75%;
+}
+
+.progress-line span::before {
+    position: absolute;
+    content: "";
+    top: -10px;
+    right: 0;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: var(--text-color);
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+.progress-line span::after {
+    position: absolute;
+    top: -28px;
+    right: 0;
+    font-weight: 500;
+    background: var(--text-color);
+    color: var(--bg-color);
+    padding: 1px 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+@keyframes showText2 {
+    100% {
+        opacity: 1;
+    }
+}
+
+.progress-line.html span::after {
+    content: "90%";
+}
+
+.progress-line.css span::after {
+    content: "60%";
+}
+
+.progress-line.jquery span::after {
+    content: "85%";
+}
+
+.progress-line.cpp span::after {
+    content: "80%";
+}
+
+.progress-line.c span::after {
+    content: "80%";
+}
+
+.progress-line.csharp span::after {
+    content: "75%";
+}
+
+.progress-line.reactjs span::after {
+    content: "70%";
+}
+
+.progress-line.mysql span::after {
+    content: "75%";
+}
+
+@media (max-width: 991px) {
+    .skills .skill-sets {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 767px) {
+    .skills .skill-sets {
+        width: 94%;
+        margin-left: 3%;
+    }
+}

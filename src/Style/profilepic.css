@@ -1,0 +1,147 @@
+.team {
+    background: var(--bg-color);
+    width:100%;
+    height: fit-content;
+    padding: 60px 0;
+    overflow: hidden;
+}
+.team .container{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.team .container h2{
+    color: var(--title-color);
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.team .container.row{
+    width:100%;
+    height:60%;
+    overflow: hidden;
+}
+.team .member {
+    text-align: center;
+    margin-bottom: 20px;
+    background: var(--selfbg);
+    position: relative;
+    overflow: hidden;
+    width: 330px;
+    height: 440px;
+}
+.team .member img{
+    position: relative;
+    bottom: 70px;
+    left:-70px;
+    width: 480px;
+    height: 680px;
+}
+.team .member .member-info {
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 0.2s;
+}
+
+.team .member .member-info-content {
+    position: absolute;
+    left: 50px;
+    right: 0;
+    bottom: 0;
+    transition: bottom 0.4s;
+    cursor: context-menu;
+}
+
+.team .member .member-info-content h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #fff;
+    white-space: pre-wrap;
+}
+
+.team .member .member-info-content span {
+    /* font-style: italic; */
+    display: block;
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    white-space: pre-wrap;
+}
+
+.team .member .social {
+    position: absolute;
+    left: -50px;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    /* transition: left ease-in-out 0.3s; */
+    background: rgba(78, 64, 57, 0.6);
+    text-align: center;
+}
+
+.team .member .social a {
+    /* transition: color 0.3s; */
+    display: block;
+    color: #fff;
+    margin-top: 15px;
+}
+
+/* .team .member .social a:hover {
+    color: #eb5d1e;
+} */
+
+.team .member .social .icon {
+    font-size: 30px;
+    margin: 0 2px;
+}
+
+.team .member .social .icon:hover{
+    transform: scale(1.25);
+}
+
+.team .member:hover .member-info {
+    background: linear-gradient(0deg, rgba(78, 64, 57, 0.95) 0%, rgba(78, 64, 57, 0.95) 15%, rgba(255, 255, 255, 0) 100%);
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.team .member:hover .member-info-content {
+    bottom: 30px;
+    transition: bottom 0.4s;
+}
+
+.team .member:hover .social {
+    left: 0;
+    transition: left ease-in-out 0.3s;
+}
+.team .container .member .touchicon{
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+.team .container .member .touchicon .iconTouch{
+    font-size: 30px;
+    color:var(--darkinLight);
+}
+@media  screen and (max-width:350px) {
+    .team .member{
+        width: 80%;
+        margin-left: 10%;
+        height: 60%;
+    }
+
+    .team .member img{
+        width: 350px;
+        left:-40px;
+    }
+}

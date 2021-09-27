@@ -1,0 +1,109 @@
+.services{
+    width: 100%;
+    min-height: 70vh;
+    max-height: fit-content;
+    padding:30px;
+    margin: 30px 0 0 0;
+    background-color: var(--bg-color2);
+    overflow: hidden;
+}
+.services .maintitle {
+    width:100%;
+    height:10%;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: var(--title-color);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.services .maintitle p{
+    white-space: pre-wrap;
+}
+.services .servicebox{
+    width:100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.services .servicebox .box{
+    width:20%;
+    height:400px;
+    /* height:100%; */
+    /* overflow: hidden; */
+    margin:0 30px;
+}
+.services .icon-box {
+    padding: 30px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 40px 0;
+    background: var(--box-color);
+    box-shadow: 0px 5px 10px 0px rgba(41, 41, 41, 0.514);
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    text-align: center;
+    outline:none;
+    border-bottom: 3px solid var(--box-color);
+}
+
+.services .icon-box:hover {
+    transform: translateY(-5px);
+    border-color: #ef7f4d;
+}
+
+.services .icon .symbol {
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 15px;
+    color: #ef7f4d;
+}
+
+.services .icon-box .title{
+    color: var(--title-color);
+    white-space: pre-wrap;
+    margin-bottom: 15px;
+    cursor: context-menu;
+}
+
+.services .icon-box .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+    text-align: left;
+    color:var(--text-color);
+    white-space: pre-wrap;
+    cursor: context-menu;
+}
+@media screen and (max-width:1300px) {
+    .services .servicebox .box{
+        width:30%;
+    }
+}
+@media screen and (max-width:1100px){
+    .services .maintitle p{
+        font-size: 20px;
+    }
+    .services .servicebox{
+        flex-direction: column;
+    }
+    .services .servicebox .box{
+        width: 90%;
+        border-radius: 10px;
+        margin-left: 5%;
+        height: fit-content;
+    }
+    .services .icon-box{
+        outline: none;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.226);
+        margin:30px 0;
+    }
+    .services .icon-box .title{
+        font-size: 20px;
+    }
+}

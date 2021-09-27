@@ -1,4 +1,7 @@
 {
+  "homepage": "https://anand7choudhary.github.io/React_Portofolio",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -b gh-deploy -d build",
   "name": "portofolio_2.0",
   "version": "0.1.0",
   "private": true,
@@ -38,9 +41,7 @@
   },
   "devDependencies": {
     "@iconify/react": "^3.0.1",
-    "gh-pages": "^3.2.3"
-  },
-    "homepage": "https://anand7choudhary.github.io/React_Portofolio",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-deploy -d build"
+    "gh-pages": "^3.2.3",
+    "html-loader": "^2.1.2"
+  }
 }

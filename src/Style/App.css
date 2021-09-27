@@ -1,26 +1,57 @@
 [data-theme="light"]{
   --bg-color:#fef8f5;
+  --ibg-color:#ff6600;
+  --bg-color2:#fff0e7;
   --button-color:#ff6600;
   --button-color-hover:#ff6600d5;
   --header:rgb(255, 255, 255);
   --title-color:#635744;
   --text-color:#422525;
   --mobile_nav:#fff7e9;
+  --skill-color:#ffad76;
+  --box-color:#ffffff;
+  --darkinLight:#111111;
+  --selfbg:#ffe5d5;
 }
 [data-theme="dark"]{
   --bg-color:#111111;
+  --ibg-color:#fef8f5;
+  --bg-color2:#202020;
   --button-color:#ff6600;
   --button-color-hover:#ff6600d5;
   --header:#252525;
   --title-color:#ffffff;
   --text-color:#ffefdb;
   --mobile_nav:#202020;
+  --skill-color:#ffad76;
+  --box-color:#252525;
+  --darkinLight:#fef8f5;
+  --selfbg:#808080;
+}
+::-webkit-scrollbar{
+  width: 7px;
+  height:7px;
+  background-color: rgb(54, 54, 54);
+}
+::-webkit-scrollbar:hover{
+  width:15px;
+  height:15px;
+}
+::-webkit-scrollbar-track{
+  background-color: rgba(128, 128, 128, 0);
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--ibg-color);
+  border-radius: 50px;
+  outline:none;
+  cursor: pointer;
 }
 *{
   margin: 0;
   padding:0;
   box-sizing: border-box;
   font-family: 'Roboto',sans-serif;
+  white-space: pre-wrap;
 }
 body{
   width:100vw;

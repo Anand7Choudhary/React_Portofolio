@@ -1,5 +1,5 @@
 import React from 'react'
-import body1 from "../Images/body1.svg";
+import resume from '../resume.pdf'
 
 export default function Body1() {
     const sectionStyle={
@@ -14,7 +14,9 @@ export default function Body1() {
               <h2>Passionate about Programming and Development</h2>
               <div>
                 <a
-                  href="resume.html"
+                  // href="../resume.html"
+                  // href="https://drive.google.com/file/d/1_kSgCvQvVzR9Uczy_NqqerA4TFoeFY21/view"
+                  href={resume}
                   target="_blank"
                   className="resumeBtn"
                   style={sectionStyle}

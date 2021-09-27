@@ -57,14 +57,47 @@ export default function Header() {
       },1000)
       clearTimeout(cntAni);
     }
+    animationCall();
   }
+  // window.onscroll = function () {
+  //   animationCall();
+  // };
+  const animationCall = () => {
+    let xyz = document.getElementById("skills").getBoundingClientRect();
+    let skillSpan = document.getElementsByClassName("skillSpan");
+    if (
+      document.body.scrollTop > xyz.top - 100 ||
+      document.documentElement.scrollTop > xyz.top - 100
+    ) {
+      for (let i = 0; i < skillSpan.length; i++) {
+        skillSpan[i].style.animationName = "animate";
+      }
+    }
+  };
   setTimeout(() => {
     if(window.innerWidth>1000){
       document.getElementById("navbar").style.display="block";
       document.getElementById("hamClose").style.display="block";
     }
-  }, 1000);
+  }, 500);
     window.onload=function(){
+        // if (
+        //   document.body.scrollTop > 100 ||
+        //   document.documentElement.scrollTop > 100
+        // ) {
+        //   document.getElementById("goup").style.display = "flex";
+        //   document.getElementById("theme-icon").style.animationName =
+        //     "themeMover";
+        //   document.getElementById("goup").style.animationName = "goupMover";
+        // } else {
+        //   document.getElementById("theme-icon").style.animationName =
+        //     "themeMoverBack";
+        //   document.getElementById("goup").style.animationName = "goupMoverBack";
+        //   let cntAni = setTimeout(() => {
+        //     document.getElementById("goup").style.display = "none";
+        //   }, 1000);
+        //   clearTimeout(cntAni);
+        // }
         checkTheme();
     }
     const navStyle={
@@ -106,12 +139,14 @@ export default function Header() {
             document.getElementById("sunIcon").style.display = "block";
             localStorage.setItem("theme","dark");
             document.getElementById("body1_bg").style.fill="#ffffff";
+            document.getElementById("body2_bg").style.fill="#ffffff";
         }else{
             document.documentElement.setAttribute("data-theme", "light");
             document.getElementById("moonIcon").style.display = "block";
             document.getElementById("sunIcon").style.display = "none";
             localStorage.setItem("theme", "light");
             document.getElementById("body1_bg").style.fill = "#ff6600";
+            document.getElementById("body2_bg").style.fill = "#ff6600";
         }
     }
     function openMenu(n){
