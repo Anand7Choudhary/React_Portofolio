@@ -1,6 +1,6 @@
 import React from 'react'
 import { Icon } from "@iconify/react";
-import $ from "jquery";
+// import $ from "jquery";
 
 export default function Contact() {
     const style1={

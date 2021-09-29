@@ -17,6 +17,7 @@ export default function Body1() {
                   // href="../resume.html"
                   // href="https://drive.google.com/file/d/1_kSgCvQvVzR9Uczy_NqqerA4TFoeFY21/view"
                   href={resume}
+                  rel="noreferrer"
                   target="_blank"
                   className="resumeBtn"
                   style={sectionStyle}
