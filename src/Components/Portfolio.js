@@ -2,6 +2,7 @@ import React from 'react'
 import work1 from '../Images/work1.PNG'
 import work2 from "../Images/work2.PNG";
 import work3 from "../Images/work3.PNG";
+import work5 from "../Images/work5.PNG";
 import work44 from "../Images/work44.PNG";
 import { Icon } from "@iconify/react";
 
@@ -15,6 +16,28 @@ export default function Portfolio() {
               <p>Check out some of my beautiful Work</p>
             </div>
             <div className="row portfolio-container workBox">
+              <div className = "portfolio-item" >
+                <div className = "portfolio-wrap" >
+                <img src = {work5}className = "img-fluid" alt = "" />
+                <div className = "portfolio-links" > {
+                  /* <a href="assets\img\work1.PNG">
+                                        <i className="bi bi-plus"></i>
+                                      </a> */
+                } 
+                <a a href = "https://movieium.herokuapp.com/"
+                rel = "noreferrer"
+                target = "_blank"
+                title = "More Details" >
+                <Icon className = "icon" icon = "akar-icons:link-chain" />
+                </a> 
+                </div>
+                <div className = "portfolio-info" >
+                <h4> Movieium </h4> 
+                <p >Personal Movie Library</p> 
+                </div> 
+                </div> 
+                </div>
+
               <div className="portfolio-item">
                 <div className="portfolio-wrap">
                   <img src={work1} className="img-fluid" alt="" />
@@ -22,11 +45,10 @@ export default function Portfolio() {
                     {/* <a href="assets\img\work1.PNG">
                       <i className="bi bi-plus"></i>
                     </a> */}
-                    <a
-                      href="https://anand7choudhary.github.io/drager2.0/"
-                      target="_blank"
-                      title="More Details"
-                    >
+                    <a a href = "https://anand7choudhary.github.io/drager2.0/"
+                    rel = "noreferrer"
+                    target = "_blank"
+                    title = "More Details" >
                       <Icon className="icon" icon="akar-icons:link-chain" />
                     </a>
                   </div>
@@ -60,6 +82,7 @@ export default function Portfolio() {
                     </a> */}
                     <a
                       href="https://anand7choudhary.github.io/slideGame/"
+                      rel = "noreferrer"
                       target="_blank"
                       title="More Details"
                     >
@@ -82,6 +105,7 @@ export default function Portfolio() {
                     <a
                       href="https://www.codechef.com/users/anand07101999"
                       target="_blank"
+                      rel = "noreferrer"
                       title="More Details"
                     >
                       <Icon className="icon" icon="akar-icons:link-chain" />

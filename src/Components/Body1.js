@@ -1,9 +1,22 @@
 import React from 'react'
 import resume from '../resume.pdf'
+import blogSite from './Blog'
 
 export default function Body1() {
-    const sectionStyle={
-        textDecoration:"none"
+    const sectionStyle1={
+        textDecoration:"none",
+        cursor:"pointer",
+        marginLeft:"10px",
+        marginRight:"10px"
+    }
+    const sectionStyle2 = {
+      textDecoration: "none",
+      cursor: "pointer",
+      marginLeft: "10px",
+      marginRight: "10px",
+      backgroundColor:"transparent",
+      color:"#ff6600",
+      border:"2px solid #ff6600"
     }
     return (
       <>
@@ -11,18 +24,27 @@ export default function Body1() {
           <div className="container">
             <div className="Text">
               <h1>Software Developer</h1>
-              <h2>Passionate about Programming and Development</h2>
-              <div>
+              <h2>Passionate about Programming and Business Development</h2>
+              <div className="body1Buttons">
                 <a
                   // href="../resume.html"
                   // href="https://drive.google.com/file/d/1_kSgCvQvVzR9Uczy_NqqerA4TFoeFY21/view"
                   href={resume}
                   rel="noreferrer"
                   target="_blank"
-                  className="resumeBtn"
-                  style={sectionStyle}
+                  className="resumeBtn body1Btn"
+                  style={sectionStyle1}
                 >
                   Resume
+                </a>
+                <a
+                  href={blogSite}
+                  rel = "noopener noreferrer"
+                  target="_blank"
+                  className = "resumeBtn body1Btn blogBtn"
+                  style={sectionStyle2}
+                >
+                  Blog
                 </a>
               </div>
             </div>
