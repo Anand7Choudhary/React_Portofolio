@@ -1,5 +1,6 @@
 import React from 'react'
-import { Icon } from "@iconify/react";
+// import { Icon } from "../../@iconify/react";
+import { Icon } from "node_modules/@iconify/react"
 import $ from "jquery";
 
 export default function Header() {
