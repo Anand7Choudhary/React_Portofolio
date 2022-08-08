@@ -18,7 +18,7 @@ export default function Portfolio() {
             <div className="row portfolio-container workBox">
               <div className = "portfolio-item" >
                 <div className = "portfolio-wrap" >
-                <img src = {work5}className = "img-fluid" alt = "" />
+                <img src= {work5}className = "img-fluid" alt = "" />
                 <div className = "portfolio-links" > {
                   /* <a href="assets\img\work1.PNG">
                                         <i className="bi bi-plus"></i>
