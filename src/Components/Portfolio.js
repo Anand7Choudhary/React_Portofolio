@@ -2,7 +2,7 @@ import React from 'react'
 import work1 from '../Images/work1.PNG'
 import work2 from "../Images/work2.PNG";
 import work3 from "../Images/work3.PNG";
-import work5 from "../Images/work5.PNG";
+import work5 from "../Images/work5.png";
 import work44 from "../Images/work44.PNG";
 import { Icon } from "@iconify/react";
 
