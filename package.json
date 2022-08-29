@@ -1,7 +1,7 @@
 {
   "homepage": "https://anand7choudhary.github.io/React_Portofolio",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -b gh-deploy -d build",
+  "deploy": "./node_modules/gh-pages/bin/gh-pages-clean.js && gh-pages -d build",
   "name": "portofolio_2.0",
   "version": "0.1.0",
   "private": true,
