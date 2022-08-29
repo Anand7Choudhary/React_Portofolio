@@ -38,7 +38,13 @@ export default function Contact() {
               >
                 <div className="info">
                   <div className="address">
-                    <Icon className="icon" icon="akar-icons:location" />
+                    {/* <Icon className="icon" icon="akar-icons:location" /> */}
+                    < lord-icon
+                    class="icon"
+                    src = "https://cdn.lordicon.com/elzslyvl.json"
+                    trigger = "loop"
+                    colors = "primary:#4be1ec,secondary:#cb5eee">
+                      </lord-icon>
                     <h4>Location:</h4>
                     <a style={style2}>
                       <p>Bangalore, Karnataka</p>
@@ -46,7 +52,13 @@ export default function Contact() {
                   </div>
 
                   <div className="email">
-                    <Icon className="icon" icon="carbon:email" />
+                    {/* <Icon className="icon" icon="carbon:email" /> */}
+                    < lord-icon
+                    class="icon"
+                    src = "https://cdn.lordicon.com/sdhhsgeg.json"
+                    trigger = "loop"
+                    colors = "primary:#4be1ec,secondary:#cb5eee">
+                      </lord-icon>
                     <h4>Email:</h4>
                     <a href="mailto:raschoudhary879@gmail.com" style={style2}>
                       <p>raschoudhary879@gmail.com</p>
@@ -54,7 +66,13 @@ export default function Contact() {
                   </div>
 
                   <div className="phone">
-                    <Icon className="icon" icon="bx:bx-phone" />
+                    {/* <Icon className="icon" icon="bx:bx-phone" /> */}
+                    < lord-icon
+                    class = "icon"
+                    src = "https://cdn.lordicon.com/psseymno.json"
+                    trigger = "loop"
+                    colors = "primary:#4be1ec,secondary:#cb5eee" >
+                      </lord-icon>
                     <h4>Call:</h4>
                     <a href="phone:7019640462" style={style2}>
                       <p>+91 7019640462</p>

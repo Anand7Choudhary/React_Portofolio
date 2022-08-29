@@ -12,7 +12,7 @@ export default function Skills() {
           <div className="skill-sets">
             <div className="bar">
               <div className="info">
-                <span>C++</span>
+                <span>C/C++</span>
               </div>
               <div className="progress-line cpp">
                 <span id="skillSpan" className="skillSpan"></span>
@@ -20,7 +20,7 @@ export default function Skills() {
             </div>
             <div className="bar">
               <div className="info">
-                <span>C</span>
+                < span > Flask(Python)</span>
               </div>
               <div className="progress-line c">
                 <span id="skillSpan" className="skillSpan"></span>
@@ -28,7 +28,7 @@ export default function Skills() {
             </div>
             <div className="bar">
               <div className="info">
-                <span>C#</span>
+                <span>Java</span>
               </div>
               <div className="progress-line csharp">
                 <span id="skillSpan" className="skillSpan"></span>
@@ -36,7 +36,7 @@ export default function Skills() {
             </div>
             <div className="bar">
               <div className="info">
-                <span>React.JS</span>
+                <span>C#</span>
               </div>
               <div className="progress-line reactjs">
                 <span id="skillSpan" className="skillSpan"></span>
@@ -44,23 +44,23 @@ export default function Skills() {
             </div>
             <div className="bar">
               <div className="info">
-                <span>HTML</span>
+                <span>HTML/CSS</span>
               </div>
               <div className="progress-line html">
                 <span id="skillSpan" className="skillSpan"></span>
               </div>
             </div>
-            <div className="bar">
+            {/* <div className="bar">
               <div className="info">
-                <span>CSS</span>
+                <span></span>
               </div>
               <div className="progress-line css">
                 <span id="skillSpan" className="skillSpan"></span>
               </div>
-            </div>
+            </div> */}
             <div className="bar">
               <div className="info">
-                <span>jQuery</span>
+                <span>Javascript/jQuery</span>
               </div>
               <div className="progress-line jquery">
                 <span id="skillSpan" className="skillSpan"></span>
@@ -68,7 +68,7 @@ export default function Skills() {
             </div>
             <div className="bar">
               <div className="info">
-                <span>MySQL</span>
+                <span>MySQL/SQLite</span>
               </div>
               <div className="progress-line mysql">
                 <span id="skillSpan" className="skillSpan"></span>

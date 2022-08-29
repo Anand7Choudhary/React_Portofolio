@@ -15,15 +15,21 @@ export default function Tasks() {
               <div className="box1 box">
                 <div className="icon-box">
                   <div className="icon">
-                    <Icon
+                    {/* <Icon
                       icon="ic:baseline-desktop-windows"
                       className="symbol"
-                    />
+                    /> */}
+                    < lord-icon
+                    class="symbol"
+                    src = "https://cdn.lordicon.com/ivhjpjsw.json"
+                    trigger = "loop"
+                    colors = "primary:#4be1ec,secondary:#cb5eee">
+                      </lord-icon>
                   </div>
                   <h4 className="title">Web Development</h4>
                   <p className="description">
-                    Skilled in developing web application using HTML, CSS,
-                    JavaScript, React framework, C#, ASP.net and MySQL,
+                    Experience in developing web application using HTML, CSS,
+                    JavaScript, React framework, C#, ASP.net, Flask(Python), MySQL,SQLite.
                   </p>
                 </div>
               </div>
@@ -31,27 +37,40 @@ export default function Tasks() {
               <div className="box2 box">
                 <div className="icon-box">
                   <div className="icon">
-                    <Icon icon="ant-design:windows-filled" className="symbol" />
+                    {/* <Icon icon="ant-design:windows-filled" className="symbol" /> */}
+                    < lord-icon
+                    class="symbol"
+                    src = "https://cdn.lordicon.com/sbgmyyba.json"
+                    trigger = "loop"
+                    colors = "primary:#4be1ec,secondary:#cb5eee">
+                      </lord-icon>
                   </div>
                   <h4 className="title">
-                    Windows Desktop Application Development
+                    Business Development
                   </h4>
                   <p className="description">
-                    Experienced in developing Windows Application using VB.net
-                    and C#.net and SQL Database
+                    Highly detailed in Business growth analysis so has to boost the growth of an organization
+                    to build the next generation technology and stay ahead of the competition.
                   </p>
                 </div>
               </div>
 
               <div className="box3 box">
                 <div className="icon-box">
-                  <div className="icon">
+                  {/* <div className="icon">
                     <Icon icon="bx:bx-code-curly" className="symbol" />
-                  </div>
+                  </div> */}
+                  < lord-icon
+                  className = "symbol"
+                  class="symbol"
+                  src = "https://cdn.lordicon.com/qkmmvfdj.json"
+                  trigger = "loop"
+                  colors = "primary:#4be1ec,secondary:#cb5eee" >
+                    </lord-icon>
                   <h4 className="title">Software Programming</h4>
                   <p className="description">
-                    Skilled in programming and developing applications using C++
-                    Programming Language. Experience in Competitive Programming
+                    Skilled in programming and developing applications using C++, JAVA, Python
+                    Programming Languages.Experience in Competitive Programming to bring in more efficient result.
                   </p>
                 </div>
               </div>

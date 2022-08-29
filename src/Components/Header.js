@@ -338,14 +338,14 @@ export default function Header() {
                       Instagram
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="https://accounts.snapchat.com/accounts/snapcodes"
                       target="_blank"
                     >
                       Snapchat
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="https://www.facebook.com/profile.php?id=100011517168750"

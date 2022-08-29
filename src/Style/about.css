@@ -23,6 +23,8 @@
 }
 
 .about .icon {
+    width:100px;
+    height:100px;
     font-size: 48px;
     margin-top: 15px;
     color: var(--button-color);

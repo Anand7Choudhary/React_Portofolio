@@ -55,14 +55,18 @@
     transform: translateY(-5px);
     border-color: #ef7f4d;
 }
-
 .services .icon .symbol {
     font-size: 48px;
     line-height: 1;
     margin-bottom: 15px;
     color: #ef7f4d;
 }
-
+.icon-box .symbol {
+    min-width: 75px;
+    min-height: 75px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
 .services .icon-box .title{
     color: var(--title-color);
     white-space: pre-wrap;

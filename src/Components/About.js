@@ -756,17 +756,22 @@ export default function About() {
             </div>
             <div className="textDiv">
               <div className="data">
-                <h2>About Me</h2>
+                <h2>Get To Know Me!</h2>
                 <p>
-                  Hello, I’m Anand, skilled and result-oriented Software
-                  Developer experienced working in a variety of environments
-                  with a breadth of programs and technologies. I am open to
-                  learn and ready to Upskill.
+                  Hello There! I'm Anand Choudhary.<br />
+                  Passionate and deatiled Software Developer with a pinch of business Development and finance knowledge.
+                  Always on a run to expand my connections and build a relation with all, So why dont you reach out?!<br />
                 </p>
               </div>
               <div className="row">
                 <div className="row1">
-                  <Icon icon="carbon:document" className="icon" />
+                  {/* <Icon icon="carbon:document" className="icon" /> */}
+                  < lord-icon
+                  class="icon"
+                  src = "https://cdn.lordicon.com/yrxnwkni.json"
+                  trigger = "loop"
+                  colors = "primary:#4be1ec,secondary:#cb5eee">
+                    </lord-icon>
                   <h4>Work Ethics</h4>
                   <p>
                     I respect and follow great work ethics and believe that Team
@@ -775,7 +780,13 @@ export default function About() {
                   </p>
                 </div>
                 <div className="row2">
-                  <Icon icon="bx:bx-cube-alt" className="icon" />
+                  {/* <Icon icon="bx:bx-cube-alt" className="icon" /> */}
+                  < lord-icon
+                  class = "icon"
+                  src = "https://cdn.lordicon.com/fwsfwdlg.json"
+                  trigger = "loop"
+                  colors = "primary:#4be1ec,secondary:#cb5eee" >
+                    </lord-icon>
                   <h4>Hobbies</h4>
                   <p>
                     Travelling

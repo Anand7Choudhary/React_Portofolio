@@ -15,7 +15,7 @@ export default function Footer() {
                   <br />
                   <strong>Phone: </strong> +91 7019640462
                   <br />
-                  <strong>Email: </strong> raschoudhary879 @example.com
+                  <strong>Email: </strong> choudharyanandc@gmail.com
                   <br />
                 </p>
               </div>
@@ -69,7 +69,7 @@ export default function Footer() {
                       className="rightPointer"
                       icon="akar-icons:chevron-right"
                     />{" "}
-                    <a>Web Design</a>
+                    <a>Software Programming </a>
                   </li>
                   <li>
                     <Icon
@@ -83,14 +83,20 @@ export default function Footer() {
                       className="rightPointer"
                       icon="akar-icons:chevron-right"
                     />{" "}
-                    <a>Software Programming</a>
+                    <a>Business Development</a>
+                  </li>
+                  <li>
+                    <Icon
+                  className = "rightPointer"
+                  icon = "akar-icons:chevron-right" /> {" "}
+                    <a>Web Design</a> 
                   </li>
                 </ul>
               </div>
 
               <div className="footer-links">
                 <h4>My Social Networks</h4>
-                <p>Knock Knock!Who's there?</p>
+                <p>Knock Knock! Who's there?</p>
                 <div className="social-links">
                   <a
                     href="https://www.facebook.com/profile.php?id=100011517168750"
@@ -125,8 +131,14 @@ export default function Footer() {
           </div>
           <div className="endStatement">
             <p>
-              Finding Maps{" "}
-              <Icon className="adventure" icon="icons8:adventures" />
+              Monsters here, go back!!!{" "}
+              {/* <Icon className="adventure" icon="icons8:adventures" /> */}
+              < lord-icon
+              class = "adventure"
+              src = "https://cdn.lordicon.com/kwnsphnf.json"
+              trigger = "loop"
+              colors = "primary:#4be1ec,secondary:#cb5eee">
+                </lord-icon>
             </p>
           </div>
         </footer>

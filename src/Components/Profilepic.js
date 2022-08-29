@@ -1,6 +1,8 @@
 import React from 'react'
 import Profile_Pic from '../Images/Profile_Pic.jpeg';
 import profile2 from "../Images/profile2.png";
+import newProfile from "../Images/profile2(2).jpg";
+import newProfile2 from "../Images/profile2(3).jpeg";
 import { Icon } from "@iconify/react";
 
 export default function Profilepic() {
@@ -19,12 +21,17 @@ export default function Profilepic() {
             <div className="row" style={inlineStyle}>
               <div>
                 <div className="member">
-                  <img src={profile2} className="img-fluid" alt="Profile" />
+                  < img src = {
+                    newProfile2
+                  }
+                  className = "img-fluid profileImage"
+                  alt = "Profile" / >
                   <div className="member-info">
                     <div className="member-info-content">
                       <h4>Anand Choudhary</h4>
                       <span>
-                        Son | Brother | Student
+                        {/* Son | Brother | Student */}
+                        Passionate
                         <br />
                         Software Developer
                       </span>

@@ -38,13 +38,13 @@ export default function Body1() {
                   Resume
                 </a>
                 <a
-                  href={blogSite}
+                  href = "https://www.linkedin.com/in/anand-choudhary-51b4211b8/"
                   rel = "noopener noreferrer"
                   target="_blank"
                   className = "resumeBtn body1Btn blogBtn"
                   style={sectionStyle2}
                 >
-                  Blog
+                  Linkedin
                 </a>
               </div>
             </div>
